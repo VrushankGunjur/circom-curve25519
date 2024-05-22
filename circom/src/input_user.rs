@@ -332,6 +332,7 @@ mod input_processing {
                       || prime_value == "pallas"
                       || prime_value == "vesta"
                       || prime_value == "secq256r1"
+                      || prime_value == "curve25519"
                       {
                         Ok(String::from(matches.value_of("prime").unwrap()))
                     }
